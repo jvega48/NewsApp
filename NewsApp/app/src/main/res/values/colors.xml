@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#111111</color>
     <color name="colorAccent">#4043ff</color>
     <color name="colorErro">#f9021f</color>
-    <color name="textColor">#ffffff</color>
-    <color name="background">#121111</color>
+    <color name="textColor">#111111</color>
+    <color name="viewLine">#19cfd6</color>
+    <color name="background">#ffffff</color>
 </resources>

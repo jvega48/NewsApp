@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp">
+    <TextView
+        android:id="@+id/title_article"
+        android:textColor="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:paddingBottom="2dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:paddingBottom="2dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/publishedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:gravity="right"
+        android:paddingBottom="2dp"
+        android:textSize="15sp"/>
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/url"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/textColor"-->
+        <!--android:textSize="15sp"-->
+        <!--android:visibility="invisible"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/urlToImage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/textColor"-->
+        <!--android:textSize="15sp"-->
+        <!--android:visibility="invisible"/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/viewLine"/>
+</LinearLayout>
